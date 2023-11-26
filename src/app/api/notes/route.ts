@@ -4,7 +4,7 @@ import {
   deleteNoteSchema,
   updateNoteSchema,
 } from "@/lib/validation/note";
-import { auth } from "@clerk/nextjs";
+import { auth } from "@clerk/nextjs/server";
 import { parse } from "path";
 
 export async function POST(req: Request) {

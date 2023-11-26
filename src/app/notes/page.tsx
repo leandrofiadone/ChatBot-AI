@@ -1,6 +1,6 @@
 import Note from "@/components/ui/Note";
 import prisma from "@/lib/db/prisma";
-import { auth } from "@clerk/nextjs";
+import { auth } from "@clerk/nextjs/server";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
