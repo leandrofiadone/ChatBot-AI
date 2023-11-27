@@ -1,4 +1,4 @@
-import Note from "@/components/ui/Note";
+import Note from "@/components/Note";
 import prisma from "@/lib/db/prisma";
 import { auth } from "@clerk/nextjs/server";
 import { Metadata } from "next";

@@ -7,7 +7,7 @@ import {
   DialogContent,
   DialogTitle,
   DialogFooter,
-} from "./dialog";
+} from "./ui/dialog";
 import {
   Form,
   FormControl,
@@ -15,10 +15,10 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "./form";
-import { Input } from "./input";
-import { Textarea } from "./textarea";
-import LoadingButton from "./loading-button";
+} from "./ui/form";
+import { Input } from "./ui/input";
+import { Textarea } from "./ui/textarea";
+import LoadingButton from "./ui/loading-button";
 import { useRouter } from "next/navigation";
 import { Note } from "@prisma/client";
 import { useState } from "react";

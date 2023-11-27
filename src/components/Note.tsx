@@ -7,7 +7,7 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "./card";
+} from "./ui/card";
 import { useState } from "react";
 import AddEditNoteDialog from "./AddEditNoteDialog";
 
